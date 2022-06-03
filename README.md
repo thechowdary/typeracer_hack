@@ -7,7 +7,8 @@ This repository is for educational purpose on how to hack typeracer.com from you
 3. Goto console window
 4. Copy and paste our code in the console section but don't hit enter until the game begins.
 
-```function autoPressKeyboard(el, keyCode, type)
+```
+function autoPressKeyboard(el, keyCode, type)
 {
     var eventObj = document.createEventObject ?
         document.createEventObject() : document.createEvent("Events");
@@ -42,4 +43,6 @@ function a () {
 	setTimeout(a, 210 * Math.random()) //trying to keep your speed under 100 to not get caught.
 }
 a();
+```
 
+5. You can hit enter once game started after the countdown. Then relax :) 
