@@ -40,7 +40,7 @@ function a () {
 	txtInput.click()
 	autoPressKeyboard(txtInput, txtInput.value.charCodeAt(0), "keypress")
 	autoPressKeyboard(txtInput, txtInput.value.charCodeAt(0), "keyup")
-	setTimeout(a, 210 * Math.random()) //trying to keep your speed under 100 to not get caught.
+	setTimeout(a, 250 * Math.random()) //trying to keep your speed under 100 to not get caught.
 }
 a();
 ```
